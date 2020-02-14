@@ -25,3 +25,26 @@ button {
   color: red;
   font-size: 0.8rem;
 }
+
+table {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+th {
+  width: 20%;
+  border: 1px solid black;
+}
+
+td {
+  /* width: 30%; */
+  height: 50px;
+  border: 1px solid black;
+}
+
+th:nth-child(2),
+th:nth-child(4) {
+  width: 10%;
+  /* font-weight: 700; */
+}
